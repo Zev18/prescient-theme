@@ -31,27 +31,6 @@ const base = {
   },
 }
 
-const noitalics = { ...base, styles: { ...base.styles, fontStyle: '' } }
-
-const storm = {
-  ...base,
-  colors: {
-    ...base.colors,
-    darkerGray: '#868cad',
-    bluishGray: '#607487',
-    focus: '#404350',
-    bg: '#252b37',
-    selection: '#818cc425',
-    black: '#101010',
-  },
-}
-
-const stormNoitalics = {
-  ...base,
-  colors: { ...storm.colors },
-  styles: { ...base.styles, fontStyle: '' },
-}
-
 function schema({ colors, styles }) {
   return `{
     "name": "Prescient",
