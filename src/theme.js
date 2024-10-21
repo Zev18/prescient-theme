@@ -54,7 +54,7 @@ const stormNoitalics = {
 
 function schema({ colors, styles }) {
   return `{
-    "name": "poimandres dark theme",
+    "name": "Prescient",
     "type": "dark",
     "colors": {
       "activityBar.background": "${colors.bg}",
@@ -200,7 +200,7 @@ function schema({ colors, styles }) {
       "tab.unfocusedActiveModifiedBorder": "${colors.lightBlue}40",
       "tab.unfocusedInactiveBackground": "${colors.bg}",
       "tab.unfocusedInactiveForeground": "${colors.gray}80",
-      "tab.unfocusedInactiveModifiedBorder": "${colors.lightBlue}40",      
+      "tab.unfocusedInactiveModifiedBorder": "${colors.lightBlue}40",
       "terminal.ansiBlack": "${colors.bg}",
       "terminal.ansiBlue": "${colors.lowerBlue}",
       "terminal.ansiBrightBlack": "${colors.gray}",
@@ -285,7 +285,7 @@ function schema({ colors, styles }) {
       "debugView.valueChangedHighlight": "${colors.lowerBlue}",
       "descriptionForeground": "${colors.gray}b3",
       "diffEditor.diagonalFill": "${colors.gray}33",
-      "dropdown.foreground": "${colors.offWhite}",    
+      "dropdown.foreground": "${colors.offWhite}",
       "errorForeground": "${colors.hotRed}",
       "extensionBadge.remoteBackground": "${colors.focus}",
       "extensionBadge.remoteForeground": "${colors.offWhite}",
@@ -566,12 +566,12 @@ function schema({ colors, styles }) {
         }
       },
       {
-        "scope": [         
-          "support.class.error", 
-          "keyword.control.trycatch", 
-          "keyword.operator.expression.delete", 
-          "keyword.operator.expression.void", 
-          "keyword.operator.void", 
+        "scope": [
+          "support.class.error",
+          "keyword.control.trycatch",
+          "keyword.operator.expression.delete",
+          "keyword.operator.expression.void",
+          "keyword.operator.void",
           "keyword.operator.delete",
           "constant.language.null",
           "constant.language.boolean.false",
@@ -643,7 +643,7 @@ function schema({ colors, styles }) {
       },
       {
         "scope": [
-          "constant.other.color",          
+          "constant.other.color",
           "meta.tag",
           "punctuation.definition.tag",
           "punctuation.separator.inheritance.php",
@@ -706,7 +706,7 @@ function schema({ colors, styles }) {
           "constant.numeric",
           "support.constant",
           "constant.character",
-          "constant.escape",          
+          "constant.escape",
           "keyword.other.unit",
           "keyword.other",
           "string",
@@ -753,7 +753,7 @@ function schema({ colors, styles }) {
       },
       {
         "scope": [
-          "entity.name",          
+          "entity.name",
           "support.orther.namespace.use.php",
           "meta.use.php",
           "support.other.namespace.php",
@@ -1263,7 +1263,4 @@ function svg({ colors }) {
 
 module.exports.schema = schema
 module.exports.base = base
-module.exports.noitalics = noitalics
-module.exports.storm = storm
-module.exports.stormNoitalics = stormNoitalics
 module.exports.svg = svg

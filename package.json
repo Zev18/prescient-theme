@@ -1,12 +1,11 @@
 {
-  "name": "pmndrs",
-  "icon": "assets/pmndrs.png",
-  "displayName": "poimandres",
-  "description": "poimandres dark theme",
-  "version": "0.3.7",
+  "name": "prescient-theme",
+  "displayName": "Prescient Theme",
+  "description": "prescient theme",
+  "version": "0.1",
   "keywords": [
-    "poimandres",
-    "pmndrs",
+    "prescient",
+    "theme",
     "vsc",
     "dark",
     "theme"
@@ -17,16 +16,16 @@
   "scripts": {
     "dev": "node src/watcher"
   },
-  "author": "Paul Henschel",
-  "publisher": "pmndrs",
+  "author": "Zev Ross",
+  "publisher": "zevross",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drcmda/poimandres-theme/issues"
+    "url": "https://github.com/zev18/prescient-theme/issues"
   },
-  "homepage": "https://github.com/drcmda/poimandres-theme#readme",
+  "homepage": "https://github.com/zev18/prescient-theme#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drcmda/poimandres-theme.git"
+    "url": "git+https://github.com/zev18/prescient-theme.git"
   },
   "engines": {
     "vscode": "^1.54.0"
@@ -37,30 +36,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "poimandres",
+        "label": "Prescient",
         "uiTheme": "vs-dark",
-        "path": "./themes/poimandres-color-theme.json"
-      },
-      {
-        "label": "poimandres-noitalics",
-        "uiTheme": "vs-dark",
-        "path": "./themes/poimandres-color-theme-noitalics.json"
-      },
-      {
-        "label": "poimandres-storm",
-        "uiTheme": "vs-dark",
-        "path": "./themes/poimandres-color-theme-storm.json"
-      },
-      {
-        "label": "poimandres-noitalics-storm",
-        "uiTheme": "vs-dark",
-        "path": "./themes/poimandres-color-theme-noitalics-storm.json"
+        "path": "./themes/prescient-color-theme.json"
       }
     ]
   },
   "devDependencies": {
     "filewatcher": "^3.0.1",
     "prettier": "^2.2.1",
-    "sharp": "^0.28.0"
+    "sharp": "^0.33.5"
   }
 }
