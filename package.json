@@ -1,34 +1,10 @@
 {
   "name": "prescient-theme",
-  "displayName": "Prescient Theme",
-  "description": "prescient theme",
-  "version": "0.1",
-  "keywords": [
-    "prescient",
-    "theme",
-    "vsc",
-    "dark",
-    "theme"
-  ],
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "dev": "node src/watcher"
-  },
-  "author": "Zev Ross",
-  "publisher": "zevross",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zev18/prescient-theme/issues"
-  },
-  "homepage": "https://github.com/zev18/prescient-theme#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zev18/prescient-theme.git"
-  },
+  "displayName": "prescient-theme",
+  "description": "Prescient theme for VS Code",
+  "version": "0.0.1",
   "engines": {
-    "vscode": "^1.54.0"
+    "vscode": "^1.94.0"
   },
   "categories": [
     "Themes"
@@ -43,8 +19,14 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^22.7.7",
     "filewatcher": "^3.0.1",
     "prettier": "^2.2.1",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "dev": "ts-node src/watcher.ts"
   }
 }

@@ -20,7 +20,7 @@ function generateTheme() {
 }
 
 const watcher = filewatcher()
-watcher.add('src/theme.js')
+watcher.add('src/theme.ts')
 
 watcher.on('change', function (file) {
   console.log(`${file} modified`)

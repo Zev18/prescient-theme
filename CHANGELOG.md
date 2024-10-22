@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "pmndrs" extension will be documented in this file.
+All notable changes to the "prescient-theme" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 

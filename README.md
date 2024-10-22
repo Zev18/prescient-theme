@@ -1,8 +1,5 @@
-# Prescient Theme
+# Prescient VS Code theme
 
-#### Running Locally
+![demo](assets/ruby.png)
 
-    npm install
-    npm run dev
-
-Go to `Run and Debug`, click the ▶ icon, any change you make in `src/theme.js` will now be reflected when you save.
+This theme is forked from the [poimanders theme](https://github.com/drcmda/poimandres-theme) and inspired by [PrescientAI](https://precientai.com)'s style guide. Note that this theme extension is not affiliated with PrescientAI in any way... I just work there lol.
